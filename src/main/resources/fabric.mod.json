@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ryzenpcsmoneytracker",
+  "version": "${version}",
+  "name": "Ryzenpcs Money Tracker Mod",
+  "description": "Highlights big incoming pays and shows a LIVE session total on the HUD.",
+  "license": "MIT",
+  "authors": ["YourName"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.donutpay.DonutPayHighlighter"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
